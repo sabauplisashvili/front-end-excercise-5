@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Lexend Deca", sans-serif;
+}
+.main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  height: 70vh;
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 0.6rem;
+  overflow: hidden;
+}
+.sedan-section {
+  background-color: hsl(31, 77%, 52%);
+}
+.suv-section {
+  background-color: hsl(184, 100%, 22%);
+}
+.luxury-section {
+  background-color: hsl(179, 100%, 13%);
+}
+.section {
+  padding: 2.5rem;
+}
+.header {
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+  padding-top: 1.5rem;
+  padding-bottom: 1.8rem;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.paragraph {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.5rem;
+  font-size: 0.8rem;
+  padding-bottom: 5rem;
+}
+.link {
+  text-decoration: none;
+  padding: 1rem 2.5rem;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  border-radius: 2rem;
+}
+.link:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  border-style: solid;
+  border-width: 0.15rem;
+  border-color: hsl(0, 0%, 95%);
+}
+.suv-link:hover {
+  background-color: hsl(184, 100%, 22%);
+}
+.luxury-link:hover {
+  background-color: hsl(179, 100%, 13%);
+}
